@@ -1,1 +1,2 @@
-# hardcidrblog
+# Kyle LePrevost's Blog / Notes
+
