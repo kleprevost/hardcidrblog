@@ -1,3 +1,8 @@
+---
+title: "Losing Weight - Old"
+date: 2019-04-09T12:57:45-04:00
+draft: false
+---
 
 I usually blog about technology, trends, and industry news on a less-than-frequent basis, but I'm taking a sharp left turn with this blog post to talk about something personal - diet and fitness. I've spent the last two years trying to improve and iterate on my physical well-being to some degree of success. I'm going to use this post both as a personal reference sheet for past learning, but also to hold myself accountable for the next year of fitness gains. I'll structure the piece below to assume someone is coming in with zero fitness experience, like I did two years ago. If you see anything in here that looks odd, feel free to point it out!
 

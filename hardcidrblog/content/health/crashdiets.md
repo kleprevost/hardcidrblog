@@ -1,3 +1,10 @@
+---
+title: "Crash Dieting"
+menuTitle: "Crash Dieting"
+date: 2019-04-09T12:57:45-04:00
+draft: false
+---
+
 Crash diets, as a general rule of thumb, are a stupid idea. However, as laid out in my mid-December post [_On Fitness and Diet - Fighting \"Skinny Fat\"_](https://hardcidr.com/on-fitness-and-diet/), the weight loss program I set out for myself was exactly that. I'm writing this followup post to outline my experience so far, and how I have come to embrace a properly controlled crash diet. 
 
 #### What I Did
