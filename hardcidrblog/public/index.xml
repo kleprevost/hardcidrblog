@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HardCIDR Blog</title>
+    <link>https://blog.hardcidr.com/</link>
+    <description>Recent content on HardCIDR Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 May 2019 12:57:45 -0400</lastBuildDate>
+    
+	<atom:link href="https://blog.hardcidr.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Magnesium Supplement Reference</title>
+      <link>https://blog.hardcidr.com/supplements/magnesium/</link>
+      <pubDate>Fri, 10 May 2019 12:57:45 -0400</pubDate>
+      
+      <guid>https://blog.hardcidr.com/supplements/magnesium/</guid>
+      <description>I&amp;rsquo;m a big advocate of science-backed supplements to optimize mental and physical performance. These articles represent my own distilled research on effectiveness, risk, and other things to consider before supplementing. To see what supplements I am currently taking, definitely check out the &amp;ldquo;My Current Supplements&amp;rdquo; article at the top of this section. Most of the sources are dervived from Examine.com, which is a great resource, but my intent is to distill it down and add my own research + anecdotes.</description>
+    </item>
+    
+    <item>
+      <title>Taurine Supplement Reference</title>
+      <link>https://blog.hardcidr.com/supplements/taurine/</link>
+      <pubDate>Fri, 10 May 2019 12:57:45 -0400</pubDate>
+      
+      <guid>https://blog.hardcidr.com/supplements/taurine/</guid>
+      <description>I&amp;rsquo;m a big advocate of science-backed supplements to optimize mental and physical performance. These articles represent my own distilled research on effectiveness, risk, and other things to consider before supplementing. To see what supplements I am currently taking, definitely check out the &amp;ldquo;My Current Supplements&amp;rdquo; article at the top of this section. Most of the sources are dervived from Examine.com, which is a great resource, but my intent is to distill it down and add my own research + anecdotes.</description>
+    </item>
+    
+    <item>
+      <title>Crash Dieting</title>
+      <link>https://blog.hardcidr.com/health/crashdiets/</link>
+      <pubDate>Tue, 09 Apr 2019 12:57:45 -0400</pubDate>
+      
+      <guid>https://blog.hardcidr.com/health/crashdiets/</guid>
+      <description>Crash diets, as a general rule of thumb, are a stupid idea. However, as laid out in my mid-December post On Fitness and Diet - Fighting \&amp;ldquo;Skinny Fat\&amp;rdquo;, the weight loss program I set out for myself was exactly that. I&amp;rsquo;m writing this followup post to outline my experience so far, and how I have come to embrace a properly controlled crash diet.
+What I Did Crash dieting is all about restricting calories while juggling your micronutrient and macronutrient intake.</description>
+    </item>
+    
+    <item>
+      <title>Crossing Your Tees: Bug Hunting for Fashion</title>
+      <link>https://blog.hardcidr.com/security/crossingyourtees/</link>
+      <pubDate>Tue, 09 Apr 2019 12:57:45 -0400</pubDate>
+      
+      <guid>https://blog.hardcidr.com/security/crossingyourtees/</guid>
+      <description>Note: Bonobos has been contacted about this issue and has been taken care of. All of the codes are dead now anyway :P
+Every year for the past couple of years the online retailer Bonobos.com has held an &amp;ldquo;Easter Egg Hunt&amp;rdquo; on their website. This is typically a fun event whereby you check various pages on their website for codes used to unlock store credit, discounts, and other goodies. The main prize this year was a $500 voucher off any order, but you had to be the first to find and use the code.</description>
+    </item>
+    
+    <item>
+      <title>Losing Weight - Old</title>
+      <link>https://blog.hardcidr.com/health/losingweight/</link>
+      <pubDate>Tue, 09 Apr 2019 12:57:45 -0400</pubDate>
+      
+      <guid>https://blog.hardcidr.com/health/losingweight/</guid>
+      <description>The Myth of &amp;ldquo;Gaining Muscle While Losing Fat&amp;rdquo;        I usually blog about technology, trends, and industry news on a less-than-frequent basis, but I&amp;rsquo;m taking a sharp left turn with this blog post to talk about something personal - diet and fitness. I&amp;rsquo;ve spent the last two years trying to improve and iterate on my physical well-being to some degree of success.</description>
+    </item>
+    
+    <item>
+      <title>Social Media Analysis of the 2012 Election</title>
+      <link>https://blog.hardcidr.com/sideprojects/2012electionsocialmedia/</link>
+      <pubDate>Tue, 09 Apr 2019 12:57:45 -0400</pubDate>
+      
+      <guid>https://blog.hardcidr.com/sideprojects/2012electionsocialmedia/</guid>
+      <description>The big question that comes up every four years always winds up being - how can we best quantify a presidential debate? CNN has tried quantifying public opinion around the debates with it&amp;rsquo;s &amp;ldquo;undecided voter&amp;rdquo; sentiment, rudimentary Twitter analysis, and polling random joes on the street. The problem with these studies is one simple thing - sample size and error. In a world where 1%-2% more votes means victory or defeat, we cannot have small sample sizes that lead to 4-5% error.</description>
+    </item>
+    
+    <item>
+      <title>Trading Forex Based On Social Media Indicators</title>
+      <link>https://blog.hardcidr.com/sideprojects/teamforex/</link>
+      <pubDate>Tue, 09 Apr 2019 12:57:45 -0400</pubDate>
+      
+      <guid>https://blog.hardcidr.com/sideprojects/teamforex/</guid>
+      <description>The popular game show *Who Wants to Be a Millionaire* used to fascinate me as a child. The show itself was entertaining, novel for the time, and dramatic (“Is that your final answer?” anyone?). However, one part of the Millionaire always stuck out to me: why was the audience always right? According to James Surowiecki, the best-selling author of &amp;ldquo;The Wisdom of Crowds&amp;rdquo;, the audience on Millionaire was correct 91% of the time.</description>
+    </item>
+    
+    <item>
+      <title>VCSP Cloud Security Presentation</title>
+      <link>https://blog.hardcidr.com/security/vcsp/</link>
+      <pubDate>Tue, 09 Apr 2019 12:57:45 -0400</pubDate>
+      
+      <guid>https://blog.hardcidr.com/security/vcsp/</guid>
+      <description>I gave a presentation to the Virginia Cyber Security Partnership in 2017 regarding Cloud Security! My talk focused on creating a new defense in depth model for public cloud environments, while showing practical examples of how to implement the technology of the new model.
+You can see the YouTube video below, which is a recording of that presentation.
+ </description>
+    </item>
+    
+    <item>
+      <title>Vitamin D Supplement Reference</title>
+      <link>https://blog.hardcidr.com/supplements/vitamind/</link>
+      <pubDate>Tue, 09 Apr 2019 12:57:45 -0400</pubDate>
+      
+      <guid>https://blog.hardcidr.com/supplements/vitamind/</guid>
+      <description>I&amp;rsquo;m a big advocate of science-backed supplements to optimize mental and physical performance. These articles represent my own distilled research on effectiveness, risk, and other things to consider before supplementing. To see what supplements I am currently taking, definitely check out the &amp;ldquo;My Current Supplements&amp;rdquo; article at the top of this section. Most of the sources are dervived from Examine.com, which is a great resource, but my intent is to distill it down and add my own research + anecdotes.</description>
+    </item>
+    
+  </channel>
+</rss>

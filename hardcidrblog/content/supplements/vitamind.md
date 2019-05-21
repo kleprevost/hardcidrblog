@@ -21,6 +21,8 @@ A report by the US Nutritional Health and Examination Survey in 2009[^15] found 
 
 ## Benefits of Supplementation
 
+_Benefits are listed from best supported to least supported_
+
 * **Decrease in Overall Mortality** - this may be a bit of correlation vs. causation issue, but the research does back an overall lower risk of death for non-deficient patients[^2][^3][^4]
 * **General Bone Health** - Optimal Vitamin D levels, especially combined with Vitamin K supplementation, leads to stronger bones across all age ranges.[^7]
 * **Lower Blood Pressure** - Linked study found an overall reduction of 5mmHg blood pressure when patients increased blood serum D levels.[^4][^5]
@@ -30,9 +32,12 @@ A report by the US Nutritional Health and Examination Survey in 2009[^15] found 
 * **Increased Mental Performance** - There is a linear relationship between Vitamin D levels and verbal fluency up to and exceeding 100ng/ml.[^14]
 * **Decreases Incidences of Depression** - Low levels of serum Vitamin D (<20ng/ml) is highly correlated with incidences of depression. Fixing Vitamin D deficiencies has shown to be a solid first-line step in battling depression.[^16]
 
-## Downsides to Vitamin D Supplementation
+## Downsides and Toxicity to Vitamin D Supplementation
 
 * There is a risk of toxicity with taking too much Vitamin D. The reason behind this is around Vitamin D being a fat-soluable vitamin which can build up in the body over time. There are reported cases of over-supplementation leading to hospitalization. See the next section about how to not screw up the dosing for Vitamin D - thankfully most supplements are well within "safe" dosing ranges. 
+
+Now the fun part - toxicity! The National Institute of Health states that a _consistent_ Vitamin D blood serum level of 200ng/ml is potentially toxic. The only way to get blood serum levels that high is to take 10,000-40,000IU supplements daily for close to three months. So yeah, super low to no toxicity, unless you are really trying. And fun fact - you cannot get Vitamin D toxicity naturally - food doesn't have enough to get to those levels, and the skin regulates Vitamin D production automatically.[^13]
+
 
 ## Dosages and Timing For Vitamin D
 
@@ -48,11 +53,6 @@ Timing wise, Vitamin D is best taken in the morning with a fatty breakfast. Taki
 
 Gwern (an independent biohacker) also validated this timing evidence through his own experiment with taking Vitamin D at night.[^12]
 
-
-## Vitamin D Safety and Toxicity
-
-Now the fun part - toxicity! The National Institute of Health states that a _consistent_ Vitamin D blood serum level of 200ng/ml is potentially toxic. The only way to get blood serum levels that high is to take 10,000-40,000IU supplements daily for close to three months. So yeah, super low to no toxicity, unless you are really trying. And fun fact - you cannot get Vitamin D toxicity naturally - food doesn't have enough to get to those levels, and the skin regulates Vitamin D production automatically.[^13]
-
 ## Vitamin D and Genetics
 
 Your genetics play a large role in Vitamin D synthesis, usage, and storage. SNPedia keeps an up-to-date list of what genetic markers are known to positively or negatively impact Vitamin D levels - [SNPedia Link](https://www.snpedia.com/index.php/Vitamin_D_Insufficiency). If you have done 23andme or Ancestry.com genetic testing, then you can export that data in Promethease to check for these SNPs directly. 
@@ -63,16 +63,14 @@ Since I've started tracking my own Vitamin D levels, I can say that I've never b
 
 ## Cost 
 
-Vitamin D is extremely cheap to supplement. High quality 5000IU capsules cost about $0.06 per day on average, which is a cheap price to pay for a staple nutritional supplement. 
 
-## Conclusion
+## Conclusion and Recommendations
 
 You should take 2000IU or more Vitamin D daily. There is virtually no downside and it costs about $0.06 a day to do it. 
 
-Recommended Brand: [Nutrigold 2000IU](https://www.amazon.com/dp/B005G73N3I/ref=emc_b_5_t)
+Recommended Brand: Nutrigold 2000IU. This brand has a great score on LabDoor in regards to quality. [Link to LabDoor Vitamin D Page](https://labdoor.com/rankings/vitamin-d/quality)
 
-The brand above has a great score on LabDoor in regards to quality. [Link to LabDoor Vitamin D Page](https://labdoor.com/rankings/vitamin-d/quality)
-
+Vitamin D is extremely cheap to supplement. High quality 5000IU capsules cost about $0.06 per day on average, which is a cheap price to pay for a staple nutritional supplement. 
 
 
 ## Research / Sources

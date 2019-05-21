@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Side Projects on HardCIDR Blog</title>
+    <link>https://blog.hardcidr.com/sideprojects/</link>
+    <description>Recent content in Side Projects on HardCIDR Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Apr 2019 12:57:45 -0400</lastBuildDate>
+    
+	<atom:link href="https://blog.hardcidr.com/sideprojects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Social Media Analysis of the 2012 Election</title>
+      <link>https://blog.hardcidr.com/sideprojects/2012electionsocialmedia/</link>
+      <pubDate>Tue, 09 Apr 2019 12:57:45 -0400</pubDate>
+      
+      <guid>https://blog.hardcidr.com/sideprojects/2012electionsocialmedia/</guid>
+      <description>The big question that comes up every four years always winds up being - how can we best quantify a presidential debate? CNN has tried quantifying public opinion around the debates with it&amp;rsquo;s &amp;ldquo;undecided voter&amp;rdquo; sentiment, rudimentary Twitter analysis, and polling random joes on the street. The problem with these studies is one simple thing - sample size and error. In a world where 1%-2% more votes means victory or defeat, we cannot have small sample sizes that lead to 4-5% error.</description>
+    </item>
+    
+    <item>
+      <title>Trading Forex Based On Social Media Indicators</title>
+      <link>https://blog.hardcidr.com/sideprojects/teamforex/</link>
+      <pubDate>Tue, 09 Apr 2019 12:57:45 -0400</pubDate>
+      
+      <guid>https://blog.hardcidr.com/sideprojects/teamforex/</guid>
+      <description>The popular game show *Who Wants to Be a Millionaire* used to fascinate me as a child. The show itself was entertaining, novel for the time, and dramatic (“Is that your final answer?” anyone?). However, one part of the Millionaire always stuck out to me: why was the audience always right? According to James Surowiecki, the best-selling author of &amp;ldquo;The Wisdom of Crowds&amp;rdquo;, the audience on Millionaire was correct 91% of the time.</description>
+    </item>
+    
+  </channel>
+</rss>

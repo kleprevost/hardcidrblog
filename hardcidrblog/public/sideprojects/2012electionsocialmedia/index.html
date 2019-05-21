@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.55.0" />
+    <meta name="description" content="Kyle LePrevost&#39;s blog that covers cyber security, side projects, and random research. ">
+<meta name="author" content="Kyle LePrevost">
+
+    <link rel="icon" href="/images/favicon.ico" type="image/ico">
+
+    <title>Social Media Analysis of the 2012 Election :: HardCIDR Blog</title>
+
+    
+    <link href="/css/nucleus.css?1558014168" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1558014168" rel="stylesheet">
+    <link href="/css/hybrid.css?1558014168" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1558014168" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1558014168" rel="stylesheet">
+    <link href="/css/auto-complete.css?1558014168" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1558014168" rel="stylesheet">
+    <link href="/css/theme.css?1558014168" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1558014168" rel="stylesheet">
+    
+      <link href="/css/theme-mine.css?1558014168" rel="stylesheet">
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1558014168"></script>
+
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/sideprojects/2012electionsocialmedia/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://blog.hardcidr.com"><img src="/images/logo.png"></a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1558014168"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1558014168"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/blog.hardcidr.com";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1558014168"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/security/" title="Security" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/security/">
+          <b>1. </b>Security
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/security/crossingyourtees/" title="Crossing Your Tees: Bug Hunting for Fashion" class="dd-item ">
+        <a href="/security/crossingyourtees/">
+        Bonobos Security
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/security/vcsp/" title="VCSP Cloud Security Presentation" class="dd-item ">
+        <a href="/security/vcsp/">
+        Cloud Security Presentation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/sideprojects/" title="Side Projects" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/sideprojects/">
+          <b>2. </b>Side Projects
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/sideprojects/2012electionsocialmedia/" title="Social Media Analysis of the 2012 Election" class="dd-item active">
+        <a href="/sideprojects/2012electionsocialmedia/">
+        2012 Election Social Media
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/sideprojects/teamforex/" title="Trading Forex Based On Social Media Indicators" class="dd-item ">
+        <a href="/sideprojects/teamforex/">
+        #TeamForex
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/supplements/" title="Supplements" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/supplements/">
+          <b>3. </b>Supplements
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/supplements/magnesium/" title="Magnesium Supplement Reference" class="dd-item ">
+        <a href="/supplements/magnesium/">
+        Magnesium
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/supplements/taurine/" title="Taurine Supplement Reference" class="dd-item ">
+        <a href="/supplements/taurine/">
+        Taurine
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/supplements/vitamind/" title="Vitamin D Supplement Reference" class="dd-item ">
+        <a href="/supplements/vitamind/">
+        Vitamin D
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/health/" title="Health/Nutrition" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/health/">
+          <b>4. </b>Health/Nutrition
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/health/crashdiets/" title="Crash Dieting" class="dd-item ">
+        <a href="/health/crashdiets/">
+        Crash Dieting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/health/losingweight/" title="Losing Weight - Old" class="dd-item ">
+        <a href="/health/losingweight/">
+        Losing Weight - Old
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li> 
+                  <a class="padding" href="https://hardcidr.com"><i class='fas fa-globe'></i> Website</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://github.com/kleprevost?tab=repositories"><i class='fab fa-github'></i> Github</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://blog.hardcidr.com/linkedin.com/in/kyle-leprevost-b4045014"><i class='fab fa-linkedin'></i> LinkedIn</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://twitter.com/HardCIDR"><i class='fab fa-twitter-square'></i> Twitter</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>HardCIDR Blog</a> > <a href='/sideprojects/'>Side Projects</a> > Social Media Analysis of the 2012 Election
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Social Media Analysis of the 2012 Election
+            </h1>
+          
+
+        
+
+
+
+<p>The big question that comes up every four years always winds up being - how can we best quantify a presidential debate? CNN has tried quantifying public opinion around the debates with it&rsquo;s &ldquo;undecided voter&rdquo; sentiment, rudimentary Twitter analysis, and polling random joes on the street. The problem with these studies is one simple thing - sample size and error. In a world where 1%-2% more votes means victory or defeat, we cannot have small sample sizes that lead to 4-5% error. Large scale social media analysis, thanks to Radian6, seems to solve this issue, and I&rsquo;ll be breaking down aggregate social data around last night&rsquo;s VP debate in response to the media&rsquo;s horrible metrics.</p>
+
+<p><strong>Number of Tweets</strong>
+This metric is a double edged sword for us as researchers.How can we derive any meaning from the aggregate number of tweets about a candidate during the debates? Is it true that there is no such thing as bad press? Regardless, here is the aggregate tweet data from Thursday until Friday, including the spike in tweets about the debate. Our query is simply searching for the names of the candidates, their twitter handles, and common abbreviations of their names.</p>
+
+<p><img src="/Screen-Shot-2012-10-12-at-10_50_35-AM_jhagxc.png" alt="Screen-Shot-2012-10-12-at-10_50_35-AM_jhagxc" /></p>
+
+<p>As you can see, Biden clearly led Ryan in the number of people talking about him on Twitter. Let&rsquo;s run a word frequency cloud on each candidate to get a feel for what people were saying about each candidate.</p>
+
+<p><img src="/Screen-Shot-2012-10-12-at-11_01_14-AM_a7s5tr.png" alt="Screen-Shot-2012-10-12-at-11_01_14-AM_a7s5tr" /></p>
+
+<p>Word clouds can give you a lot of noise, but a couple interesting words pop out. Paul Ryan generated a lot of hits from the hashtag #factsmatter, which was used when the tweet focused on fact checking the candidate. Over on the Biden word cloud you can see some negative words like &ldquo;rude&rdquo;, &ldquo;interrupting&rdquo;, and &ldquo;laughing&rdquo;. It is interesting to note that the opposing candidate in each word cloud is the second largest in frequency, which indicates that there was a lot of direct comparisons made between the candidates.</p>
+
+<p><strong>Topic Analysis</strong>
+What were the hot topics during last night&rsquo;s debate? Let&rsquo;s take a look:</p>
+
+<p><img src="/Screen-Shot-2012-10-12-at-12_19_33-PM_kkw8lc.png" alt="Screen-Shot-2012-10-12-at-12_19_33-PM_kkw8lc" /></p>
+
+<p>Defense related topics (Iran, military spending, Libya) were at the forefront of the debate last night, and that is reflected in the social data. The interesting data point here is that the abortion topic only came up for a short time at the end of the debate, but takes second place for most discussed issue over jobs/unemployment and tax reform.</p>
+
+<p>How did this debate affect the presidential candidates when it comes to the issues? The graph on the left shows the aggregate number of posts about each issue over two weeks (starting the day before the VP debate) as they relate to the presidential candidates. The graph on the right shows the same thing over the same span of time, but also includes last night&rsquo;s debate (as they relate to the presidential candidates, not VPs). This will effectively show us HOW the discourse around the candidates changed as their VPs duked it out last night.</p>
+
+<p><img src="/Screen-Shot-2012-10-12-at-1_14_58-PM_zxo0fi.png" alt="Screen-Shot-2012-10-12-at-1_14_58-PM_zxo0fi" /></p>
+
+<p><img src="/Screen-Shot-2012-10-12-at-1_15_53-PM_uid69j.png" alt="Screen-Shot-2012-10-12-at-1_15_53-PM_uid69j" /></p>
+
+<p>Notice anything? They are nearly identical. If you look closely abortion and defense got decent sized bumps, but the discourse remained relatively the same. There just wasn&rsquo;t enough volume to affect the proportion of issues talked about over the last two weeks, but it&rsquo;ll be interesting to see what happens if we were to compare this graph to the same graph 1-2 weeks from today, to see if the VP debate had any longer term shifts in issues.</p>
+
+<p><strong>Who Won?</strong></p>
+
+<p>This question has always bothered me. There are a million ways to measure who won the debate, and really, is there a binary yes/no answer to this question? Anyway, CNN introduced two hashtags - #BidenWinning and #RyanWinning - which they encouraged their viewers to tweet throughout the night. Well, the results are in!</p>
+
+<p><img src="/Screen-Shot-2012-10-12-at-3_29_27-PM_zmom5j.png" alt="Screen-Shot-2012-10-12-at-3_29_27-PM_zmom5j" /></p>
+
+<p><strong>Conclusions</strong></p>
+
+<p>Well, that&rsquo;s all the data! Interpret it as you will, but it suggests that Biden had a stronger performance comparative to Ryan.</p>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1558014168"></script>
+    <script src="/js/perfect-scrollbar.min.js?1558014168"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1558014168"></script>
+    <script src="/js/jquery.sticky.js?1558014168"></script>
+    <script src="/js/featherlight.min.js?1558014168"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1558014168"></script>
+    <script src="/js/highlight.pack.js?1558014168"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1558014168"></script>
+    <script src="/js/learn.js?1558014168"></script>
+    <script src="/js/hugo-learn.js?1558014168"></script>
+
+    <link href="/mermaid/mermaid.css?1558014168" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1558014168"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+

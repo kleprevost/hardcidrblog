@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Health/Nutrition on HardCIDR Blog</title>
+    <link>https://blog.hardcidr.com/health/</link>
+    <description>Recent content in Health/Nutrition on HardCIDR Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Apr 2019 12:57:45 -0400</lastBuildDate>
+    
+	<atom:link href="https://blog.hardcidr.com/health/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Crash Dieting</title>
+      <link>https://blog.hardcidr.com/health/crashdiets/</link>
+      <pubDate>Tue, 09 Apr 2019 12:57:45 -0400</pubDate>
+      
+      <guid>https://blog.hardcidr.com/health/crashdiets/</guid>
+      <description>Crash diets, as a general rule of thumb, are a stupid idea. However, as laid out in my mid-December post On Fitness and Diet - Fighting \&amp;ldquo;Skinny Fat\&amp;rdquo;, the weight loss program I set out for myself was exactly that. I&amp;rsquo;m writing this followup post to outline my experience so far, and how I have come to embrace a properly controlled crash diet.
+What I Did Crash dieting is all about restricting calories while juggling your micronutrient and macronutrient intake.</description>
+    </item>
+    
+    <item>
+      <title>Losing Weight - Old</title>
+      <link>https://blog.hardcidr.com/health/losingweight/</link>
+      <pubDate>Tue, 09 Apr 2019 12:57:45 -0400</pubDate>
+      
+      <guid>https://blog.hardcidr.com/health/losingweight/</guid>
+      <description>The Myth of &amp;ldquo;Gaining Muscle While Losing Fat&amp;rdquo;        I usually blog about technology, trends, and industry news on a less-than-frequent basis, but I&amp;rsquo;m taking a sharp left turn with this blog post to talk about something personal - diet and fitness. I&amp;rsquo;ve spent the last two years trying to improve and iterate on my physical well-being to some degree of success.</description>
+    </item>
+    
+  </channel>
+</rss>

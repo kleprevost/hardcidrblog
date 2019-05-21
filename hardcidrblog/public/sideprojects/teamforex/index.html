@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.55.0" />
+    <meta name="description" content="Kyle LePrevost&#39;s blog that covers cyber security, side projects, and random research. ">
+<meta name="author" content="Kyle LePrevost">
+
+    <link rel="icon" href="/images/favicon.ico" type="image/ico">
+
+    <title>Trading Forex Based On Social Media Indicators :: HardCIDR Blog</title>
+
+    
+    <link href="/css/nucleus.css?1558014168" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1558014168" rel="stylesheet">
+    <link href="/css/hybrid.css?1558014168" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1558014168" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1558014168" rel="stylesheet">
+    <link href="/css/auto-complete.css?1558014168" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1558014168" rel="stylesheet">
+    <link href="/css/theme.css?1558014168" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1558014168" rel="stylesheet">
+    
+      <link href="/css/theme-mine.css?1558014168" rel="stylesheet">
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1558014168"></script>
+
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/sideprojects/teamforex/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://blog.hardcidr.com"><img src="/images/logo.png"></a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1558014168"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1558014168"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/blog.hardcidr.com";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1558014168"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/security/" title="Security" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/security/">
+          <b>1. </b>Security
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/security/crossingyourtees/" title="Crossing Your Tees: Bug Hunting for Fashion" class="dd-item ">
+        <a href="/security/crossingyourtees/">
+        Bonobos Security
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/security/vcsp/" title="VCSP Cloud Security Presentation" class="dd-item ">
+        <a href="/security/vcsp/">
+        Cloud Security Presentation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/sideprojects/" title="Side Projects" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/sideprojects/">
+          <b>2. </b>Side Projects
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/sideprojects/2012electionsocialmedia/" title="Social Media Analysis of the 2012 Election" class="dd-item ">
+        <a href="/sideprojects/2012electionsocialmedia/">
+        2012 Election Social Media
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/sideprojects/teamforex/" title="Trading Forex Based On Social Media Indicators" class="dd-item active">
+        <a href="/sideprojects/teamforex/">
+        #TeamForex
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/supplements/" title="Supplements" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/supplements/">
+          <b>3. </b>Supplements
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/supplements/magnesium/" title="Magnesium Supplement Reference" class="dd-item ">
+        <a href="/supplements/magnesium/">
+        Magnesium
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/supplements/taurine/" title="Taurine Supplement Reference" class="dd-item ">
+        <a href="/supplements/taurine/">
+        Taurine
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/supplements/vitamind/" title="Vitamin D Supplement Reference" class="dd-item ">
+        <a href="/supplements/vitamind/">
+        Vitamin D
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/health/" title="Health/Nutrition" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/health/">
+          <b>4. </b>Health/Nutrition
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/health/crashdiets/" title="Crash Dieting" class="dd-item ">
+        <a href="/health/crashdiets/">
+        Crash Dieting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/health/losingweight/" title="Losing Weight - Old" class="dd-item ">
+        <a href="/health/losingweight/">
+        Losing Weight - Old
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li> 
+                  <a class="padding" href="https://hardcidr.com"><i class='fas fa-globe'></i> Website</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://github.com/kleprevost?tab=repositories"><i class='fab fa-github'></i> Github</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://blog.hardcidr.com/linkedin.com/in/kyle-leprevost-b4045014"><i class='fab fa-linkedin'></i> LinkedIn</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://twitter.com/HardCIDR"><i class='fab fa-twitter-square'></i> Twitter</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>HardCIDR Blog</a> > <a href='/sideprojects/'>Side Projects</a> > Trading Forex Based On Social Media Indicators
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Trading Forex Based On Social Media Indicators
+            </h1>
+          
+
+        
+
+
+
+<p>The popular game show *Who Wants to Be a Millionaire* used to fascinate me as a child. The show itself was entertaining, novel for the time, and dramatic (“Is that your final answer?” anyone?). However, one part of the <em>Millionaire</em> always stuck out to me: why was the audience always right? According to James Surowiecki, the best-selling author of &ldquo;The Wisdom of Crowds&rdquo;, the audience on <em>Millionaire</em> was correct 91% of the time. The basis of Surowiecki’s argument is that the decision of a group is always better than the decision of one of its members. Surowiecki postulates that the group needs to meet several requirements - such as being from diverse backgrounds, resistant to groupthink, and have access to the same basic information - in order of them to make the best decisions possible. That’s what made the audience from Millionaire so great – it was a group of diverse people who couldn’t communicate with each other giving their qualified opinions on which answer was correct. <strong>So how does this relate to social media, the foreign exchange market, and a potential correlation worth millions?</strong></p>
+
+<p>Armed with this knowledge, I was given access to a social media-monitoring and engagement platform called Radian6. It allows the user to search, collect, and visualize data from the social web on a grand scale. Radian6 allows companies to track the effectiveness of their social campaigns (“are people actually talking about my brand?”) , along with engage directly with their customers in one convenient platform. I was given access to this amazing platform thanks to a partnership between Clemson University, Dell, and Radian6 – which gave students like myself unlimited access to research <em>anything we wanted</em>. I immediately <a href="http://www.wired.com/wiredscience/2010/10/twitter-crystal-ball">thought back to an article in Wired</a> in which researchers from Indiana University found a correlation between the general mood on Twitter and the stock market. The general “mood” on Twitter was able to accurately predict the daily movements of the stock market 86.7% of the time, which is an incredible correlation (<a href="http://arxiv.org/abs/1010.3003">source</a>). Similarly, <a href="http://arxiv.org/abs/1003.5699">researchers from HP Labs</a> identified a correlation between posts on Twitter about movies and their respective box office sales. I figured that this deserved to be looked at a second time, so several of us (myself, Scott Cole, Paul Smith, James Kaplanges, and Brett Smentek) formed a group to analyze this further.</p>
+
+<p>I learned very quickly that constructing a social query surrounding stocks would not be an easy feat. How would we differentiate the company “Apple” from the fruit? How would we interpret news about AAPL as positive, negative, or neither? Why were people misspelling “back” as “bac” and throwing off our search results for Bank of America’s stock ticket, BAC? This was going to be a nightmare. However, we also discovered that people on Twitter used the notation $BAC or $AAPL to talk about stock tickers. After analyzing how many people used that notation, we decided that weren’t able to effectively watch one stock. We would encounter spikes of traffic surrounding one company – for instance if an earnings report came out, or a large piece of news was released. So, we plugged in all 3000+ securities listed on the NYSE one-by-one into Radian6 and watched intently on which stocks were being talked about the most. We were able to spot a correlation between social traffic on a particular ticker and big market movements, which was exciting. However, the amount of queries that Radian6 had to run for our stock analysis slowed their servers down to the point where it affected other customers. We had our topic profile disabled, but thankfully we were able to keep our access to the platform. Whoops!</p>
+
+<p>With our stock project essentially shut down I turned my focus to the foreign exchange market. Since there are only a few currency pairs to examine, it ensured that we could drive in enough social traffic to examine with only a few search keywords. After searching through social media posts about foreign exchange, we discovered several keywords that would yield tons of relevant opinions on whether to buy or short a currency pair at a specific time. We had essentially found the Ask the Audience lifeline for the foreign exchange market. We look for instances where Buy or Sell volume outweigh each other by a certain amount. In this example we would have executed trades in the 8AM and 12PM ranges.</p>
+
+<p><img src="/radian6.png" alt="radian6" /></p>
+
+<p>After analyzing some preliminary data from our Radian6 topic profile, we had enough data to construct a rudimentary automated trading algorithm.  The initial results of this algorithm were overwhelmingly positive, so we pressed on. Over the course of seven weeks we have come up with a very sophisticated trading algorithm that can respond to a number of market conditions, which has shown to have a very effective in practice trading. Out of 58 trades made by our Radian6 powered social algorithm, only 13 moved in the opposite direction. That is a 77% prediction rate, which may be higher because of inefficiencies within the autotrading algorithm. On average we secured 32 pips per trade, which beat our goal of 20 pips per day by a good percentage.</p>
+
+<p>We started with $5,000 in a demo brokerage account leveraged 50:1 and let it trade over the course of seven weeks. As of today, we have $44,000 in the account (784% increase) and are on course to have over one million dollars in the account before the end of June.</p>
+
+<p><img src="/earnings1.png" alt="earnings1" /></p>
+
+<p>The X axis represents individual trades, while the Y axis represents dollars in the demo account. We make anywhere between 1-2 trades per day, and this represents 35 days worth of trades. Note that there was a period of neutral/negative growth for about a week. That week was extremely volatile price wise (no discernible upward/downwards trends), and pointed out a flaw in our method. Group decision making may be accurate and effective, but it is far less fast and efficient in comparison to individual decision making. By the time enough posts come through to trigger a trade, the market has already made its short-lived movement and is moving towards a correction. Regardless of this setback, our social media autotrading bot destroyed our expectations and continues to make great trades.</p>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1558014168"></script>
+    <script src="/js/perfect-scrollbar.min.js?1558014168"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1558014168"></script>
+    <script src="/js/jquery.sticky.js?1558014168"></script>
+    <script src="/js/featherlight.min.js?1558014168"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1558014168"></script>
+    <script src="/js/highlight.pack.js?1558014168"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1558014168"></script>
+    <script src="/js/learn.js?1558014168"></script>
+    <script src="/js/hugo-learn.js?1558014168"></script>
+
+    <link href="/mermaid/mermaid.css?1558014168" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1558014168"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+

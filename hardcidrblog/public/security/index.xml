@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on HardCIDR Blog</title>
+    <link>https://blog.hardcidr.com/security/</link>
+    <description>Recent content in Security on HardCIDR Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Apr 2019 12:57:45 -0400</lastBuildDate>
+    
+	<atom:link href="https://blog.hardcidr.com/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Crossing Your Tees: Bug Hunting for Fashion</title>
+      <link>https://blog.hardcidr.com/security/crossingyourtees/</link>
+      <pubDate>Tue, 09 Apr 2019 12:57:45 -0400</pubDate>
+      
+      <guid>https://blog.hardcidr.com/security/crossingyourtees/</guid>
+      <description>Note: Bonobos has been contacted about this issue and has been taken care of. All of the codes are dead now anyway :P
+Every year for the past couple of years the online retailer Bonobos.com has held an &amp;ldquo;Easter Egg Hunt&amp;rdquo; on their website. This is typically a fun event whereby you check various pages on their website for codes used to unlock store credit, discounts, and other goodies. The main prize this year was a $500 voucher off any order, but you had to be the first to find and use the code.</description>
+    </item>
+    
+    <item>
+      <title>VCSP Cloud Security Presentation</title>
+      <link>https://blog.hardcidr.com/security/vcsp/</link>
+      <pubDate>Tue, 09 Apr 2019 12:57:45 -0400</pubDate>
+      
+      <guid>https://blog.hardcidr.com/security/vcsp/</guid>
+      <description>I gave a presentation to the Virginia Cyber Security Partnership in 2017 regarding Cloud Security! My talk focused on creating a new defense in depth model for public cloud environments, while showing practical examples of how to implement the technology of the new model.
+You can see the YouTube video below, which is a recording of that presentation.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

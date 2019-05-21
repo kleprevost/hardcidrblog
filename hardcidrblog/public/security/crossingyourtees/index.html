@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.55.0" />
+    <meta name="description" content="Kyle LePrevost&#39;s blog that covers cyber security, side projects, and random research. ">
+<meta name="author" content="Kyle LePrevost">
+
+    <link rel="icon" href="/images/favicon.ico" type="image/ico">
+
+    <title>Crossing Your Tees: Bug Hunting for Fashion :: HardCIDR Blog</title>
+
+    
+    <link href="/css/nucleus.css?1558014168" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1558014168" rel="stylesheet">
+    <link href="/css/hybrid.css?1558014168" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1558014168" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1558014168" rel="stylesheet">
+    <link href="/css/auto-complete.css?1558014168" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1558014168" rel="stylesheet">
+    <link href="/css/theme.css?1558014168" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1558014168" rel="stylesheet">
+    
+      <link href="/css/theme-mine.css?1558014168" rel="stylesheet">
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1558014168"></script>
+
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/security/crossingyourtees/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://blog.hardcidr.com"><img src="/images/logo.png"></a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1558014168"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1558014168"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/blog.hardcidr.com";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1558014168"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/security/" title="Security" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/security/">
+          <b>1. </b>Security
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/security/crossingyourtees/" title="Crossing Your Tees: Bug Hunting for Fashion" class="dd-item active">
+        <a href="/security/crossingyourtees/">
+        Bonobos Security
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/security/vcsp/" title="VCSP Cloud Security Presentation" class="dd-item ">
+        <a href="/security/vcsp/">
+        Cloud Security Presentation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/sideprojects/" title="Side Projects" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/sideprojects/">
+          <b>2. </b>Side Projects
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/sideprojects/2012electionsocialmedia/" title="Social Media Analysis of the 2012 Election" class="dd-item ">
+        <a href="/sideprojects/2012electionsocialmedia/">
+        2012 Election Social Media
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/sideprojects/teamforex/" title="Trading Forex Based On Social Media Indicators" class="dd-item ">
+        <a href="/sideprojects/teamforex/">
+        #TeamForex
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/supplements/" title="Supplements" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/supplements/">
+          <b>3. </b>Supplements
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/supplements/magnesium/" title="Magnesium Supplement Reference" class="dd-item ">
+        <a href="/supplements/magnesium/">
+        Magnesium
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/supplements/taurine/" title="Taurine Supplement Reference" class="dd-item ">
+        <a href="/supplements/taurine/">
+        Taurine
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/supplements/vitamind/" title="Vitamin D Supplement Reference" class="dd-item ">
+        <a href="/supplements/vitamind/">
+        Vitamin D
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/health/" title="Health/Nutrition" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/health/">
+          <b>4. </b>Health/Nutrition
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/health/crashdiets/" title="Crash Dieting" class="dd-item ">
+        <a href="/health/crashdiets/">
+        Crash Dieting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/health/losingweight/" title="Losing Weight - Old" class="dd-item ">
+        <a href="/health/losingweight/">
+        Losing Weight - Old
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li> 
+                  <a class="padding" href="https://hardcidr.com"><i class='fas fa-globe'></i> Website</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://github.com/kleprevost?tab=repositories"><i class='fab fa-github'></i> Github</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://blog.hardcidr.com/linkedin.com/in/kyle-leprevost-b4045014"><i class='fab fa-linkedin'></i> LinkedIn</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://twitter.com/HardCIDR"><i class='fab fa-twitter-square'></i> Twitter</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>HardCIDR Blog</a> > <a href='/security/'>Security</a> > Crossing Your Tees: Bug Hunting for Fashion
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Crossing Your Tees: Bug Hunting for Fashion
+            </h1>
+          
+
+        
+
+
+
+<p><em>Note: Bonobos has been contacted about this issue and has been taken care of. All of the codes are dead now anyway :P</em></p>
+
+<p>Every year for the past couple of years the online retailer Bonobos.com has held an &ldquo;Easter Egg Hunt&rdquo; on their website. This is typically a fun event whereby you check various pages on their website for codes used to unlock store credit, discounts, and other goodies. The main prize this year was a $500 voucher off any order, but you had to be the first to find and use the code. I woke up fairly for a Saturday (10AM) to participate in this competition, figuring that I could always use some new Bonobos clothes on the cheap. I noticed that they changed it up this year - instead of plaintext codes, they have a javascript popup that displays an image containing the code. Clever, probably harder to download the entire site and grep your way to victory this year. Below is what you see when you first get to the site:</p>
+
+<p><img src="/Screen-Shot-2013-03-30-at-2_45_56-PM_qvbesb.png" alt="Screen-Shot-2013-03-30-at-2_45_56-PM_qvbesb" /></p>
+
+<p>Interesting, let&rsquo;s take a look at the source just for curiosity&rsquo;s sake.</p>
+
+<p><img src="/Screen-Shot-2013-03-30-at-2_51_45-PM_a2fhtt.png" alt="Screen-Shot-2013-03-30-at-2_51_45-PM_a2fhtt" /></p>
+
+<p>So it links directly to an image! After playing around with the URL, I found that directory listing/traversal wasn&rsquo;t an option. Well, what happens when we increment/decrement the image file name?</p>
+
+<p><img src="/Screen-Shot-2013-03-30-at-2_57_27-PM_iwzwmh.png" alt="Screen-Shot-2013-03-30-at-2_57_27-PM_iwzwmh" /></p>
+
+<p>Awesome, it looks like they are using sequential filenames for this promotion. After decrementing further, I was able to score all of the coupon codes with ease. Here they are below:</p>
+
+<p><img src="/Screen-Shot-2013-03-30-at-2_55_44-PM_ffveon.png" alt="Screen-Shot-2013-03-30-at-2_55_44-PM_ffveon" /></p>
+
+<p><img src="/Screen-Shot-2013-03-30-at-2_57_27-PM_iwzwmh--1-.png" alt="Screen-Shot-2013-03-30-at-2_57_27-PM_iwzwmh--1-" /></p>
+
+<p><img src="/Screen-Shot-2013-03-30-at-2_57_38-PM_p1txyt.png" alt="Screen-Shot-2013-03-30-at-2_57_38-PM_p1txyt" /></p>
+
+<p><img src="/Screen-Shot-2013-03-30-at-2_57_45-PM_rsawbn.png" alt="Screen-Shot-2013-03-30-at-2_57_45-PM_rsawbn" /></p>
+
+<p>Instead of abusing this newfound power, I decided to call Bonobos and report the issue directly to them. They answered the phone immediately (amazing customer service), and I reported the issue to the rep, who was able to replicate the problem and report it to someone who could fix it. He said that the $500 code was already taken, but I could use any of the ones that I discovered (all of them). I tried all of them, and settled with the largest one that worked - the $100 off $250+. Not bad! +1 for responsible disclosure and Bonobos customer service! This issue shows how important it is to cross your tees (pun intended) and dot your i&rsquo;s when it comes to security. It&rsquo;s a minor issue, and it&rsquo;s definitely not as severe as an XSS or SQLInjection, but it could damage the reputation of the company. Simply randomizing that string of numbers would be enough to make it more secure, but they didn&rsquo;t go that far when setting it up. It may be the fault of Monetate.net, which is where the images are hosted, but there should have been some check along the line before launching the promotion.</p>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1558014168"></script>
+    <script src="/js/perfect-scrollbar.min.js?1558014168"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1558014168"></script>
+    <script src="/js/jquery.sticky.js?1558014168"></script>
+    <script src="/js/featherlight.min.js?1558014168"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1558014168"></script>
+    <script src="/js/highlight.pack.js?1558014168"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1558014168"></script>
+    <script src="/js/learn.js?1558014168"></script>
+    <script src="/js/hugo-learn.js?1558014168"></script>
+
+    <link href="/mermaid/mermaid.css?1558014168" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1558014168"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+
