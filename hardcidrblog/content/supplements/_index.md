@@ -6,8 +6,4 @@ chapter = false
 pre = "<b>3. </b>"
 +++
 
-### Chapter X
-
-# Some Chapter title
-
-Lorem Ipsum.
+### Supplement Reviews

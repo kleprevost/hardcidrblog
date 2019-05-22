@@ -62,9 +62,9 @@ Taurine can be cheap depending on the brand. Nutricost brand can provide 2,000mg
 
 [^3]: [Taurine acts on a subclass of GABAa receptors in mammalian brain in vitro](https://www.sciencedirect.com/science/article/pii/S0922410605800318)
 
-[^4]: [](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3509183)
+[^4]: [Taurine ameliorates hyperglycemia and dyslipidemia by reducing insulin resistance and leptin level in Otsuka Long-Evans Tokushima fatty (OLETF) rats with long-term diabetes](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3509183)
 
-[^5]: [](http://wprim.whocc.org.cn/admin/article/articleDetail?WPRIMID=362475&articleId=362475)
+[^5]: [EFFECT OF TAURINE SUPPLEMENTATION ON BLOOD GLUCOSE CONCENTRATION DURING PROLONGED EXERCISE](http://wprim.whocc.org.cn/admin/article/articleDetail?WPRIMID=362475&articleId=362475)
 
 [^6]: [Taurine induces anti-anxiety by activating strychnine-sensitive glycine receptor in vivo.](https://www.ncbi.nlm.nih.gov/pubmed/17728537)
 
